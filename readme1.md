@@ -57,11 +57,3 @@ But the second way is more better
 export const User = mongoose.model("User",suserSchema);
 
 This command states that create a data model User on the basis of UserSchema
-
-gitignore generator to generate gitignore data
-
-Two nested folders are created, and when pushed on github they are not tracked.
-Because git tracks the files not the folders
-
-To push these folders, as these are necessary to show the flow of the project
-.gitkeep - a file created which is kept inside the folder
